@@ -1,0 +1,65 @@
+:root {
+    --caixa-azul-escuro: #003399;
+    --caixa-azul-claro: #0077C8;
+    --caixa-laranja: #F58220;
+    --caixa-cinza: #f4f4f4b6;
+    --caixa-branco: #FFFFFF;
+    --background-contador:#000000
+}
+
+*{
+    margin:0;
+    padding:0
+}
+
+#contador-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contador-p{
+    background-color: var(--caixa-cinza);
+    color: var(--caixa-azul-escuro);
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    font-size: 3em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('./img/predio-caixa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; 
+    margin: 0;
+}
+
+#falta-div ,#convocacao-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#falta-div p ,#convocacao-div p{
+    background-color: var(--caixa-laranja);
+    color: var(--caixa-branco);
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    font-size: 2em;
+    max-width: 25vw;
+}
+
+#comecar-convocacao{
+    background-color: var(--caixa-cinza);
+    color: var(--caixa-azul-escuro);
+    font-size: 3em;
+    padding:1vw 1vh;
+    border-radius: 5px;
+}
