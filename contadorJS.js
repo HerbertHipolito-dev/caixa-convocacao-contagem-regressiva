@@ -20,11 +20,10 @@ function atualizarContador() {
     
     if (tempoRestante < 0) {
         clearInterval(contagemRegressiva);
-        document.getElementById("contador-div").innerHTML = "<p id='comecar-convocacao'>Convocação deve começar em breve!</p>";
+        document.getElementById("contador-div").innerHTML = "<p id='comecar-convocacao'>🎉Convocação deve começar em breve!🎉</p>";
         document.getElementById('falta-div').remove()
         document.getElementById('convocacao-div').remove()
     }
 }
 
-// Atualiza o contador a cada segundo
 const contagemRegressiva = setInterval(atualizarContador, 1000);

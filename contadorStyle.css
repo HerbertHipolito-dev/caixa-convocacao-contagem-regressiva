@@ -27,10 +27,12 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: Arial, sans-serif;
     text-align: center;
     background-image: url('./img/predio-caixa.jpg');
     background-size: cover;
@@ -53,7 +55,7 @@ body {
     padding: 1vh 1vw;
     border-radius: 5px;
     font-size: 2em;
-    max-width: 25vw;
+    width:fit-content
 }
 
 #comecar-convocacao{
@@ -77,5 +79,10 @@ body {
     body{
         padding: 5vh 0;
         height:90vh
+    }
+
+    #comecar-convocacao{
+        font-size:2em;
+        margin: 0 2vw
     }
 }
