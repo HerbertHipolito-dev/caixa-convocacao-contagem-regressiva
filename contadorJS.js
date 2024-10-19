@@ -10,13 +10,13 @@ function atualizarContador() {
     const segundos = Math.floor((tempoRestante % (1000 * 60)) / 1000);
 
     document.getElementById("contador-dias").innerHTML = 
-        ` ${dias} dias`;
+        ` ${dias} d`;
     document.getElementById("contador-horas").innerHTML = 
-        ` ${horas} horas`;
+        ` ${horas} h`;
     document.getElementById("contador-minutos").innerHTML = 
-        `${minutos} minutos`;
+        `${minutos} m`;
     document.getElementById("contador-segundos").innerHTML = 
-        `${segundos} segundos`;
+        `${segundos} s`;
     
     if (tempoRestante < 0) {
         clearInterval(contagemRegressiva);
