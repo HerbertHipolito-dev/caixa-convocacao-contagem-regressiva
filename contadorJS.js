@@ -1,4 +1,4 @@
-const dataConvocacao = new Date("2024-10-24T00:00:00");
+const dataConvocacao = new Date("2024-11-14T00:00:00");
 
 function atualizarContador() {
     const agora = new Date();
